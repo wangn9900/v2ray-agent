@@ -4343,8 +4343,9 @@ menu() {
 	echoContent green "原仓库已经被不明力量消失,且用且珍惜!"
 	echoContent green "作者：mack-a"
 	echoContent green "当前版本：v2.5.42"
-	echoContent green "Github：https://github.com/bigcaibao/v2ray-agent"
-	echoContent green "描述：八合一共存脚本\c"
+	echoContent green "Github：https://github.com/wangn9900/v2ray-agent"
+	echoContent green "描述：八合一共存脚本"
+	echoContent green "推荐机场：https://tianquege.top \c"
 	showInstallStatus
 	echoContent red "\n=============================================================="
 	if [[ -n "${coreInstallType}" ]]; then
