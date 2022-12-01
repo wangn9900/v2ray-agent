@@ -6,7 +6,7 @@ Latest Version【推荐】
 wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/wangn9900/v2ray-agent/main/install.sh" && chmod 700 /root/install.sh && /root/install.sh
 ```
 # 特性
-<br> * 支持[Xray-core[XTLS]](https://github.com/XTLS/Xray-core)、v2ray-core 
+* <br>支持[Xray-core[XTLS]](https://github.com/XTLS/Xray-core)、v2ray-core 
 * <br>支持切换前置[VLESS XTLS -> Trojan XTLS]、[Trojan XTLS -> VLESS XTLS]
 * <br>支持不同核心之间的配置文件互支持 VLESS/VMess/tr支持Debian、Ubuntu、Centos，支持主流的cpu架构。不建议使用Centos以及低版本的系统，2.3.x后不再支持Centos6
 * <br>支持个性化安装
@@ -21,14 +21,7 @@ wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/wangn
 * <br>支持多端口配置
 * <br>支持自定义证书安装
 # 支持的安装类型
-VLESS+TCP+TLS
-VLESS+TCP+xtls-rprx-direct【 推荐 】
-VLESS+gRPC+TLS【支持CDN、IPv6、延迟低】
-VLESS+WS+TLS【支持CDN、IPv6】
-Trojan+TCP+TLS【 推荐 】
-Trojan+TCP+xtls-rprx-direct【 推荐 】
-Trojan+gRPC+TLS【支持CDN、IPv6、延迟低】
-VMess+WS+TLS【支持CDN、IPv6】
+VLESS+TCP+TLS* <br>VLESS+TCP+xtls-rprx-direct【 推荐 】* <br>VLESS+gRPC+TLS【支持CDN、IPv6、延迟低】* <br>VLESS+WS+TLS【支持CDN、IPv6】* <br>Trojan+TCP+TLS【 推荐 】* <br>Trojan+TCP+xtls-rprx-direct【 推荐 】* <br>Trojan+gRPC+TLS【支持CDN、IPv6、延迟低】* <br>VMess+WS+TLS【支持CDN、IPv6】
 # 组合推荐中转/gia/AS4837/AS9929 ---> VLESS+TCP+TLS/XTLS、Trojan【推荐使用XTLS的xtls-rprx-direct】
 移动宽带 ---> VMESS+WS+TLS/VLESS+WS+TLS/VLESS+gRPC+TLS/Trojan+gRPC+TLS + Cloudflare
 cloudflare-> VLESS+gRPC+TLS/Trojan+gRPC+TLS[多路复用、延迟低]
