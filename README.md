@@ -6,7 +6,7 @@ Latest Version【推荐】
 wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/wangn9900/v2ray-agent/main/install.sh" && chmod 700 /root/install.sh && /root/install.sh
 ```
 # 特性
-支持[Xray-core[XTLS]](https://github.com/XTLS/Xray-core)、v2ray-core
+* 支持[Xray-core[XTLS]](https://github.com/XTLS/Xray-core)、v2ray-core
 支持切换前置[VLESS XTLS -> Trojan XTLS]、[Trojan XTLS -> VLESS XTLS]
 支持不同核心之间的配置文件互相读取
 支持 VLESS/VMess/trojan 协议
