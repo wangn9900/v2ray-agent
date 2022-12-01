@@ -21,7 +21,14 @@ wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/wangn
 * <br>支持多端口配置
 * <br>支持自定义证书安装
 # 支持的安装类型
-* VLESS+TCP+TLS * <br>VLESS+TCP+xtls-rprx-direct【 推荐 】 * <br>VLESS+gRPC+TLS【支持CDN、IPv6、延迟低】 * <br>VLESS+WS+TLS【支持CDN、IPv6】 * <br>Trojan+TCP+TLS【 推荐 】   * <br>Trojan+TCP+xtls-rprx-direct【 推荐 】 * <br>Trojan+gRPC+TLS【支持CDN、IPv6、延迟低】 * <br>VMess+WS+TLS【支持CDN、IPv6】
+* VLESS+TCP+TLS
+* VLESS+TCP+xtls-rprx-direct【 推荐 】
+* <br>VLESS+gRPC+TLS【支持CDN、IPv6、延迟低】 
+* <br>VLESS+WS+TLS【支持CDN、IPv6】 
+* <br>Trojan+TCP+TLS【 推荐 】   
+* <br>Trojan+TCP+xtls-rprx-direct【 推荐 】 
+* <br>Trojan+gRPC+TLS【支持CDN、IPv6、延迟低】 
+* <br>VMess+WS+TLS【支持CDN、IPv6】
 # 组合推荐中转/gia/AS4837/AS9929 ---> VLESS+TCP+TLS/XTLS、Trojan【推荐使用XTLS的xtls-rprx-direct】
 移动宽带 ---> VMESS+WS+TLS/VLESS+WS+TLS/VLESS+gRPC+TLS/Trojan+gRPC+TLS + Cloudflare
 cloudflare-> VLESS+gRPC+TLS/Trojan+gRPC+TLS[多路复用、延迟低]
